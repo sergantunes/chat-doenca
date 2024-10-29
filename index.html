@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chatdoencas.css">
+    <title>Login - ChatDoença</title>
+</head>
+<body>
+    <div class="login-container">
+            <div class="login-image">
+                <img src="chatdoenças.png">
+            </div>
+            <div class="login-form">
+                <form action="login" method="post">
+                    <label for="usarname">Usuário ou Email</label>
+                    <input type="text" id="username" name="username" placeholder="Usuário ou Email">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <a href="pagina_chat.html" class="login-button">Entrar</a>
+                    <button type="button" onclick="window.location.href='register'">
+                        Criar Conta</button>
+                </form>
+            </div>
+    </div>
+</body>
+</html>

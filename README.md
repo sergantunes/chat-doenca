@@ -26,6 +26,6 @@ Layout:
 Estrutura de Arquivos
   index.html - Página de Login;
   chat.html - Página do chat;
-  style.css - Arquivo de estilos para o layout e responsividade.
+  chatdoenca.css - Arquivo de estilos para o layout e responsividade.
         
           
